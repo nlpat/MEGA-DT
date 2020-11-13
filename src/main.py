@@ -135,7 +135,7 @@ def parse_args():
                         help='''Which subfunctionality of the preprocessing pipeline to execute.\
                                 Generate (t)ext, (x)ml, (c)onll, (m)erge''')
     parser.add_argument('--corenlp_dir',
-                        default='/ubc/cs/research/nlp/patrickhuber/2_Tools/CoreNLP/stanford-corenlp-full-2018-10-05/',
+                        default='./data/CoreNLP/stanford-corenlp-full-2018-10-05/',
                         help='absolute path to the CoreNLP main folder')
     return parser.parse_args()
 
