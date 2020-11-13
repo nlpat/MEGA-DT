@@ -1,4 +1,4 @@
-# MEGA-DT -- An RST Discourse Treebank with Structure and Nuclearity.
+# MEGA-DT - An RST Discourse Treebank with Structure and Nuclearity.
 This is the official code for the paper ["MEGA RST Discourse Treebanks with Structure and Nuclearity from Scalable Distant Sentiment Supervision" (EMNLP 2020)](https://arxiv.org/abs/2011.03017), in which we present a novel scalable methodology to automatically generate discourse treebanks using distant supervision from sentiment-annotated datasets, creating MEGA-DT, a new large-scale discourse-annotated corpus.
 
 Depending on your use-case, we offer 5 different entrance points to our work:
