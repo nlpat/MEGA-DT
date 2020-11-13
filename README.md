@@ -1,7 +1,7 @@
 # MEGA-DT - An RST Discourse Treebank with Structure and Nuclearity.
 This is the official code for the paper ["MEGA RST Discourse Treebanks with Structure and Nuclearity from Scalable Distant Sentiment Supervision" (EMNLP 2020)](https://arxiv.org/abs/2011.03017), in which we present a novel scalable methodology to automatically generate discourse treebanks using distant supervision from sentiment-annotated datasets, creating MEGA-DT, a new large-scale discourse-annotated corpus.
 
-Depending on your use-case, we offer 5 different entrance points to our work:
+Depending on your use-case, we offer four different entrance points to our work:
  1. Download the pre-trained discourse parsing model, trained using the [Two-Stage parser](https://github.com/yizhongw/StageDP) on MEGA-DT. This is recommended if you want to directly use our trained model as part of your system. To download the pre-trained model go to [our website](http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/mega_dt.html) and request your version through the form.
 
  2. Download the MEGA-DT dataset, containing ~250,000 documents with full RST-style discourse trees (containing structure and nuclearity). This is recommended if you want to explore our dataset, train any available discourse parser or experiment with the data. To download the MEGA-DT dataset go to [our website](http://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/mega_dt.html) and request your version through the form.
@@ -16,7 +16,7 @@ Depending on your use-case, we offer 5 different entrance points to our work:
 
 *If you decide to run our complete model, please follow these instructions:*
 
-## Prerequisits
+## Prerequisites
 The presented code has been tested using `python 3`. Please ensure your python version is up-to-date.
 
 To ensure the correct and compatible versions of all libraries, please install the specified versions from the requirements file:
