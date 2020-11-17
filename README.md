@@ -42,6 +42,20 @@ Please note that depending on the location of the train/dev/test data as well as
 python main.py -h
 ```
 
-## Cite this paper
-Coming Soon.
+## If you use our dataset, code or any parts thereof, please cite this paper:
+```
+@inproceedings{huber-carenini-2020-mega,
+    title = "{MEGA} {RST} Discourse Treebanks with Structure and Nuclearity from Scalable Distant Sentiment Supervision",
+    author = "Huber, Patrick  and
+      Carenini, Giuseppe",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.emnlp-main.603",
+    pages = "7442--7457",
+    abstract = "The lack of large and diverse discourse treebanks hinders the application of data-driven approaches, such as deep-learning, to RST-style discourse parsing. In this work, we present a novel scalable methodology to automatically generate discourse treebanks using distant supervision from sentiment annotated datasets, creating and publishing MEGA-DT, a new large-scale discourse-annotated corpus. Our approach generates discourse trees incorporating structure and nuclearity for documents of arbitrary length by relying on an efficient heuristic beam-search strategy, extended with a stochastic component. Experiments on multiple datasets indicate that a discourse parser trained on our MEGA-DT treebank delivers promising inter-domain performance gains when compared to parsers trained on human-annotated discourse corpora.",
+}
+```
 
