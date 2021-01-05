@@ -301,8 +301,8 @@ def create_dp_trees(save_dir, data_ext, model_ext, out_ext,
                     os.path.exists(save_dir+out_ext+"/"+dataset[1]+"/edus/"+ doc_id + ".out.edus") and 
                     os.path.exists(save_dir+out_ext+"/"+dataset[1]+"/info/"+ doc_id + ".out.info")):
                     continue
-                gold_label = float(data[0])
-                predicted_label = float(data[2])
+                gold_label = float(data[1])
+                predicted_label = float(data[3])
                 length = int(data[5])
                 empty_edu = False
                 edu_text, edu_sent, edu_attn = [], [], []
